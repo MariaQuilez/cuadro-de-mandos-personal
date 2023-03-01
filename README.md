@@ -1,34 +1,18 @@
-# 📈 Cuadro de mandos personal 📊
- 
-> Usa este repositorio para crear un cuadro de mandos personal con Streamlit. Documenta los siguientes apartados del README.
-> Incluye en tu README la url de donde has publicado tu aplicación. Pon la `url` también en el `About` de tu repositorio.
+# 📈 Cuadro de mandos personal: DATOS SOBRE ALUMNOS EN LA ESCUELA DE IDIOMAS 📊
 
 ## Objetivo
-Diseño de un cuadro de mandos personal para visualización e interacción con un conjunto de datos.
+Diseño de un cuadro de mandos personal para visualización de datos sobre los alumnos que se han matriculado durante los años 2020 y 2021 en las Escuelas de Idiomas Españolas.
 
 ## Los datos
-Elige un conjunto de datos que te interese: educación, deportes, trabajo, música, econocomía, etc. 
+Los datos los he descargado como .csv desde un porta de datos libres de una de las Comunidades Autónomas. Al descargar el archivo, cojo los datos de manera local. Los campos principales que he decidido mostrar son los siguientes: nivel de idioma, idiomas disponibles, provincias, número de alumnos y número de grupos por provincia y de cada idioma.
 
-## Búsqueda de los datos
-Busca una fuente para tus datos. Puedes usar una API de un portal de datos abiertos, un conjunto ya publicado, recopilar personalmente datos por scraping, etc.
-
-## Documentación de los datos
-Documenta los datos que vas a usar y su origen. De dónde los has sacado, fuentes, etc. Describe los campos, los valores, las unidades, etc.
-
-## Prepara tu aplicación.
-La aplicación se llamará `app.py`. Añade un `requirements.txt` con las dependencias de tu aplicación. Ve actualizándolo a medida que vayas añadiendo librerías.
-
-## Carga y análisis de conjunto de dato con pandas
-Carga el conjunto de datos en un dataframe de pandas y realiza un análisis exploratorio de los datos.
+## Preparación de la aplicación
+La aplicación se llama `app.py`. He añadido un `requirements.txt` con las dependencias de mi aplicación, streamlit y pandas.
 
 ## Visualización de los datos
-Prepara visualizaciones diferentes del dataframe en texto (tablas) o gráficas (histogramas, barras, etc.). Puedes usar matplotlib, seaborn, plotly, etc.
+He preparado la aplicación para que los datos se muestren en tablas y en gráficos. Para que sea interactivo, he utilizado Altair para mostrar widgets como campos de selección o checbox. Incluso he puesto una barra lateral para uno de los gráficos, el usuario puede decidir los datos que quiere mostrar según el idioma que elija.
 
-## Diseña la interacción que van a tener tus datos
-Qué inputs y outputs tendrán tus datos. 
+## Publicación de la aplicación
+Para publicar la aplicación, lo he hecho con Streamlit Cloud. He creado una cuenta y he subido mi aplicación. He creado un repositorio en GitHub y he conectado mi cuenta de Streamlit Cloud con mi cuenta de GitHub. De esta manera, cada vez que hago un push a mi repositorio, se actualiza la aplicación en Streamlit Cloud.
 
-## Prepara la aplicación (cuadro de mandos) con Streamlit
-Prepara y prueba la aplicación.
-
-## Publica la aplicación.
-Publica la aplicación en Streamlit Cloud, en Heroku o en el servicio que prefieras https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app
+La url de mi aplicación es: 
