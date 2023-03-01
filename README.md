@@ -15,4 +15,4 @@ He preparado la aplicación para que los datos se muestren en tablas y en gráfi
 ## Publicación de la aplicación
 Para publicar la aplicación, lo he hecho con Streamlit Cloud. He creado una cuenta y he subido mi aplicación. He creado un repositorio en GitHub y he conectado mi cuenta de Streamlit Cloud con mi cuenta de GitHub. De esta manera, cada vez que hago un push a mi repositorio, se actualiza la aplicación en Streamlit Cloud.
 
-La url de mi aplicación es: 
+La url de mi aplicación es: https://mariaquilez-cuadro-de-mandos-personal-app-3jnxck.streamlit.app/
